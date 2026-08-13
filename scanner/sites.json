@@ -1,0 +1,42 @@
+[
+  {
+    "id": "theguardian",
+    "name": "The Guardian",
+    "url": "https://www.theguardian.com",
+    "domain": "theguardian.com",
+    "category": "news",
+    "expectedTier": "good"
+  },
+  {
+    "id": "bbc-news",
+    "name": "BBC News",
+    "url": "https://www.bbc.com/news",
+    "domain": "bbc.com",
+    "category": "news",
+    "expectedTier": "good"
+  },
+  {
+    "id": "nytimes",
+    "name": "The New York Times",
+    "url": "https://www.nytimes.com",
+    "domain": "nytimes.com",
+    "category": "news",
+    "expectedTier": "mid"
+  },
+  {
+    "id": "dailymail",
+    "name": "Daily Mail",
+    "url": "https://www.dailymail.co.uk",
+    "domain": "dailymail.co.uk",
+    "category": "news",
+    "expectedTier": "bad"
+  },
+  {
+    "id": "buzzfeednews",
+    "name": "BuzzFeed News",
+    "url": "https://www.buzzfeednews.com",
+    "domain": "buzzfeednews.com",
+    "category": "news",
+    "expectedTier": "bad"
+  }
+]

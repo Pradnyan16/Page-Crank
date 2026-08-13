@@ -1,0 +1,36 @@
+fileignoreconfig:
+- filename: scoring/package-lock.json
+  checksum: f0ba695ace8e44a97f095060f4e8177744d2f7f21a1abfa140fa2eae080a1276
+- filename: scanner/package-lock.json
+  checksum: adae6b69dfab9313021ec166c1054d0f1c08a0c4b6d936f3703860e5e1b31917
+- filename: web/package-lock.json
+  checksum: 102d7896221c3e50223248aa9ca4cc6a87b7bf8e7bbec8bde348485337f36207
+- filename: web/lh.json
+  checksum: 5d9818df10d6302a0a03dbf2351d1a63c3604d8409916c6034784834e65762ff
+- filename: web/components/Scorecard.tsx
+  checksum: 46775174e34ce52bef4068b517d6f42612080e36bf56f3852a7cb7da2dafc810
+- filename: scoring/src/explain.ts
+  checksum: ac59cc22d31a0d9cda43d56bc561e7490c13348b1f2e5e688d2cb05b81d2b091
+- filename: web/components/ScorecardModal.tsx
+  checksum: 441ff92288b4f5ca5047f5ebe2e74f682ab99286c5155c00aedad5a049a5f443
+- filename: web/components/SiteCardGrid.tsx
+  checksum: 14b3739b4da199e39e0fc2f3b3c0015106152ccd5c917e869e8d49e7549dacb0
+- filename: web/components/Ticker.tsx
+  checksum: 5fea03a4ddafe6b18cbffb7d6d59062f14b66c2144f1b2aeb7b80b8e4a09d57b
+- filename: web/components/RankingTable.tsx
+  checksum: 69007557b2dbd1721c81c4d3c17c3ef924330862d547386ad7a50b90eb662172
+- filename: web/app/layout.tsx
+  checksum: 5d10e4307933e3d0c0d74f565b9d4ce0a2ce14e3ac4c711e33c4720f8e81a4df
+- filename: web/app/methodology/page.tsx
+  checksum: e0072942a48b643ccf8ab1f57e556bb94fb9d19c222314eed6627544f2034287
+- filename: web/vercel.json
+  checksum: 02a0fd02a3cbd90a5f48ab43948f78e10df4950c00488816f804866a815262a6
+- filename: web/app/scorecard/[slug]/page.tsx
+  checksum: 006cf4c6dc748a72cbb4c9e827a8024f9b8950e47700fb460b5a4353fd726f53
+- filename: web/app/scorecard/[slug]/page.tsx
+  checksum: 006cf4c6dc748a72cbb4c9e827a8024f9b8950e47700fb460b5a4353fd726f53
+- filename: web/app/page.tsx
+  checksum: e5f8a50428c8908eac87e0149287e3c43211d6d4366c088f24f29c5d6c76c083
+- filename: web/components/PillarsExplainer.tsx
+  checksum: 73554ca57ad7e7a989d3d9fd17499eddea635b9ff73e2e6c3cd77eaefe1bd454
+version: "1.0"

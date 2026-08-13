@@ -1,0 +1,21 @@
+{
+  "name": "@page-crank/scoring",
+  "version": "0.1.0",
+  "description": "Pure scoring functions: RawScan → pillar scores → letter grades",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "score": "tsx src/score.ts",
+    "score:all": "tsx src/score.ts --all",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "tsx": "^4.17.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.4.2"
+  }
+}
