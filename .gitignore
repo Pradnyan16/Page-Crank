@@ -1,0 +1,39 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Next.js
+web/.next/
+web/out/
+web/build/
+
+# Scanner / Scoring build artefacts
+scanner/node_modules/
+scoring/node_modules/
+
+# Scanner raw output (large screenshot directories — only keep the final web copies)
+scanner/output/
+
+# macOS
+.DS_Store
+
+# Environment files — never commit secrets
+.env
+.env.local
+.env.*
+!.env.example
+
+# Logs
+scan_log.txt
+*.log
+
+# Vercel
+web/.vercel
+
+# TypeScript
+web/next-env.d.ts
+web/*.tsbuildinfo
+
+# Cache
+.cache/
+PageCrank_Project.zip

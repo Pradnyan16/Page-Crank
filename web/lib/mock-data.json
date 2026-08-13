@@ -1,0 +1,122 @@
+{
+  "editionLabel": "Aug 2026",
+  "volume": "Vol. I — No. 1",
+  "category": "50 Most-Visited English News Sites",
+  "publishedAt": "2026-08-07T00:00:00Z",
+  "sites": [
+    {
+      "siteId": "theguardian",
+      "siteName": "The Guardian",
+      "siteUrl": "https://www.theguardian.com",
+      "runStartedAt": "2026-08-07T09:12:54Z",
+      "pillars": { "intrusion": 72, "privacy": 58, "performance": 64, "accessibility": 88 },
+      "pillarGrades": {
+        "intrusion":     { "score": 72, "letter": "C+", "tier": "mid",  "colour": "brass",  "verdict": "Mixed Experience" },
+        "privacy":       { "score": 58, "letter": "D",  "tier": "mid",  "colour": "brass",  "verdict": "Needs Work" },
+        "performance":   { "score": 64, "letter": "C+", "tier": "mid",  "colour": "brass",  "verdict": "Mixed Experience" },
+        "accessibility": { "score": 88, "letter": "B+", "tier": "good", "colour": "ledger", "verdict": "Reader Friendly" }
+      },
+      "overallScore": 69,
+      "overallGrade": { "score": 69, "letter": "C+", "tier": "mid", "colour": "brass", "verdict": "Mixed Experience" },
+      "attentionTax": "Moderate",
+      "scoredAt": "2026-08-07T09:30:00Z",
+      "rank": 1,
+      "rankDelta": 0
+    },
+    {
+      "siteId": "bbc-news",
+      "siteName": "BBC News",
+      "siteUrl": "https://www.bbc.com/news",
+      "runStartedAt": "2026-08-07T09:12:54Z",
+      "pillars": { "intrusion": 80, "privacy": 65, "performance": 72, "accessibility": 91 },
+      "pillarGrades": {
+        "intrusion":     { "score": 80, "letter": "B-", "tier": "good", "colour": "ledger", "verdict": "Reader Friendly" },
+        "privacy":       { "score": 65, "letter": "C+", "tier": "mid",  "colour": "brass",  "verdict": "Mixed Experience" },
+        "performance":   { "score": 72, "letter": "C+", "tier": "mid",  "colour": "brass",  "verdict": "Mixed Experience" },
+        "accessibility": { "score": 91, "letter": "A-", "tier": "good", "colour": "ledger", "verdict": "Reader Approved" }
+      },
+      "overallScore": 76,
+      "overallGrade": { "score": 76, "letter": "C+", "tier": "mid", "colour": "brass", "verdict": "Mixed Experience" },
+      "attentionTax": "Moderate",
+      "scoredAt": "2026-08-07T09:30:00Z",
+      "rank": 2,
+      "rankDelta": 2
+    },
+    {
+      "siteId": "nytimes",
+      "siteName": "The New York Times",
+      "siteUrl": "https://www.nytimes.com",
+      "runStartedAt": "2026-08-07T09:12:54Z",
+      "pillars": { "intrusion": 55, "privacy": 42, "performance": 58, "accessibility": 82 },
+      "pillarGrades": {
+        "intrusion":     { "score": 55, "letter": "D",  "tier": "mid", "colour": "brass", "verdict": "Needs Work" },
+        "privacy":       { "score": 42, "letter": "D",  "tier": "mid", "colour": "brass", "verdict": "Needs Work" },
+        "performance":   { "score": 58, "letter": "D",  "tier": "mid", "colour": "brass", "verdict": "Needs Work" },
+        "accessibility": { "score": 82, "letter": "B",  "tier": "good","colour": "ledger","verdict": "Reader Friendly" }
+      },
+      "overallScore": 54,
+      "overallGrade": { "score": 54, "letter": "D", "tier": "mid", "colour": "brass", "verdict": "Needs Work" },
+      "attentionTax": "High",
+      "scoredAt": "2026-08-07T09:30:00Z",
+      "rank": 3,
+      "rankDelta": -1
+    },
+    {
+      "siteId": "dailymail",
+      "siteName": "Daily Mail",
+      "siteUrl": "https://www.dailymail.co.uk",
+      "runStartedAt": "2026-08-07T09:12:54Z",
+      "pillars": { "intrusion": 28, "privacy": 18, "performance": 32, "accessibility": 54 },
+      "pillarGrades": {
+        "intrusion":     { "score": 28, "letter": "F", "tier": "bad", "colour": "rust", "verdict": "Reader Hostile" },
+        "privacy":       { "score": 18, "letter": "F", "tier": "bad", "colour": "rust", "verdict": "Reader Hostile" },
+        "performance":   { "score": 32, "letter": "F", "tier": "bad", "colour": "rust", "verdict": "Reader Hostile" },
+        "accessibility": { "score": 54, "letter": "D", "tier": "mid", "colour": "brass","verdict": "Needs Work" }
+      },
+      "overallScore": 26,
+      "overallGrade": { "score": 26, "letter": "F", "tier": "bad", "colour": "rust", "verdict": "Reader Hostile" },
+      "attentionTax": "Severe",
+      "scoredAt": "2026-08-07T09:30:00Z",
+      "rank": 4,
+      "rankDelta": -3
+    },
+    {
+      "siteId": "buzzfeednews",
+      "siteName": "BuzzFeed News",
+      "siteUrl": "https://www.buzzfeednews.com",
+      "runStartedAt": "2026-08-07T09:12:54Z",
+      "pillars": { "intrusion": 38, "privacy": 30, "performance": 45, "accessibility": 62 },
+      "pillarGrades": {
+        "intrusion":     { "score": 38, "letter": "F",  "tier": "bad", "colour": "rust", "verdict": "Reader Hostile" },
+        "privacy":       { "score": 30, "letter": "F",  "tier": "bad", "colour": "rust", "verdict": "Reader Hostile" },
+        "performance":   { "score": 45, "letter": "D",  "tier": "mid", "colour": "brass","verdict": "Needs Work" },
+        "accessibility": { "score": 62, "letter": "C-", "tier": "mid", "colour": "brass","verdict": "Mixed Experience" }
+      },
+      "overallScore": 37,
+      "overallGrade": { "score": 37, "letter": "F", "tier": "bad", "colour": "rust", "verdict": "Reader Hostile" },
+      "attentionTax": "Severe",
+      "scoredAt": "2026-08-07T09:30:00Z",
+      "rank": 5,
+      "rankDelta": 1
+    },
+    {
+      "siteId": "npr",
+      "siteName": "NPR",
+      "siteUrl": "https://www.npr.org",
+      "runStartedAt": "2026-08-07T09:12:54Z",
+      "pillars": { "intrusion": 90, "privacy": 85, "performance": 82, "accessibility": 95 },
+      "pillarGrades": {
+        "intrusion":     { "score": 90, "letter": "A-", "tier": "good", "colour": "ledger", "verdict": "Reader Approved" },
+        "privacy":       { "score": 85, "letter": "B",  "tier": "good", "colour": "ledger", "verdict": "Reader Friendly" },
+        "performance":   { "score": 82, "letter": "B-", "tier": "good", "colour": "ledger", "verdict": "Reader Friendly" },
+        "accessibility": { "score": 95, "letter": "A",  "tier": "good", "colour": "ledger", "verdict": "Reader Approved" }
+      },
+      "overallScore": 88,
+      "overallGrade": { "score": 88, "letter": "B+", "tier": "good", "colour": "ledger", "verdict": "Reader Friendly" },
+      "attentionTax": "Low",
+      "scoredAt": "2026-08-07T09:30:00Z",
+      "rank": 6,
+      "rankDelta": 1
+    }
+  ]
+}

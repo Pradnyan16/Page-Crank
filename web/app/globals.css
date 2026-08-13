@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&family=UnifrakturMaguntia&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Courier+Prime:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #EFE6D3;
+  --color-paperDark: #E4D8BE;
+  --color-ink: #211C16;
+  --color-inkSoft: #4A4238;
+  --color-rust: #B5432B;
+  --color-ledger: #4F6B52;
+  --color-brass: #B08A3E;
+
+  --font-masthead: "UnifrakturMaguntia", serif;
+  --font-display: "Rye", serif;
+  --font-body: "Libre Baskerville", serif;
+  --font-mono: "Courier Prime", Courier, monospace;
+
+  --shadow-scorecard: 6px 6px 0 rgba(33,28,22,0.15);
+
+  --animate-fade-up: fadeUp 0.6s ease forwards;
+  --animate-ticker: scrollTicker 30s linear infinite;
+
+  @keyframes fadeUp {
+    0% { opacity: 0; transform: translateY(15px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes scrollTicker {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }
+}
+
+:root {
+  /* CSS custom properties mirror Tailwind tokens — used by non-Tailwind contexts
+     (inline GSAP styles, SVG fills, Radix UI data attributes) */
+  --paper:      #EFE6D3;
+  --paper-dark: #E4D8BE;
+  --ink:        #211C16;
+  --ink-soft:   #4A4238;
+  --rust:       #B5432B;
+  --ledger:     #4F6B52;
+  --brass:      #B08A3E;
+}
+
+html {
+  /* Lenis overrides this — but provides fallback for no-JS */
+  scroll-behavior: smooth;
+  font-size: 150%;
+}
+
+body {
+  background-color: var(--color-paper);
+  /* Aged newsprint dot texture — the only background decoration we use.
+     Deliberately subtle: the texture says "print" without screaming "retro" */
+  background-image: radial-gradient(rgba(0,0,0,0.025) 1.5px, transparent 1.5px);
+  background-size: 4.5px 4.5px;
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  margin: 0;
+  padding: 0;
+}
+
+/* ── Focus states — accessible, on-brand, never removed ─────────────────── */
+/* WHY: Our own site must pass the same accessibility bar we measure others on */
+*:focus-visible {
+  outline: 3px solid var(--color-rust);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* ── Reduced motion — every animation respects this ─────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ── Typography base ─────────────────────────────────────────────────────── */
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  line-height: 1.1;
+}
+
+/* ── Scorecard double-border inset ───────────────────────────────────────── */
+/* WHY: The double inset border replicates a letterpress card border —
+   a deliberate aesthetic choice, not generic card styling */
+.scorecard-inset {
+  position: relative;
+}
+.scorecard-inset::before {
+  content: '';
+  position: absolute;
+  inset: 9px;
+  border: 2px solid rgba(33, 28, 22, 0.35);
+  pointer-events: none;
+}
+
+/* ── Grade stamp ─────────────────────────────────────────────────────────── */
+/* mix-blend-mode: multiply gives ink-on-paper look — stamp colour bleeds
+   into the paper texture beneath, exactly like a real rubber stamp */
+.grade-stamp {
+  mix-blend-mode: multiply;
+}

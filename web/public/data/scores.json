@@ -1,0 +1,272 @@
+[
+  {
+    "siteId": "bbc-news",
+    "siteName": "BBC News",
+    "siteUrl": "https://www.bbc.com/news",
+    "scannerVersion": "0.2.0",
+    "runStartedAt": "2026-08-13T08:35:39.707Z",
+    "pillars": {
+      "intrusion": 100,
+      "privacy": 69,
+      "performance": 67,
+      "accessibility": 94
+    },
+    "pillarGrades": {
+      "intrusion": {
+        "score": 100,
+        "letter": "A+",
+        "tier": "good",
+        "colour": "ledger",
+        "verdict": "Reader Excellent"
+      },
+      "privacy": {
+        "score": 69,
+        "letter": "D",
+        "tier": "mid",
+        "colour": "brass",
+        "verdict": "Needs Work"
+      },
+      "performance": {
+        "score": 67,
+        "letter": "D",
+        "tier": "mid",
+        "colour": "brass",
+        "verdict": "Needs Work"
+      },
+      "accessibility": {
+        "score": 94,
+        "letter": "A",
+        "tier": "good",
+        "colour": "ledger",
+        "verdict": "Reader Approved"
+      }
+    },
+    "overallScore": 83,
+    "overallGrade": {
+      "score": 83,
+      "letter": "B",
+      "tier": "good",
+      "colour": "ledger",
+      "verdict": "Reader Friendly"
+    },
+    "attentionTax": "Low",
+    "scoredAt": "2026-08-13T08:40:40.683Z",
+    "aiExplanation": "BBC News delivers a beautifully uncluttered reading experience, scoring perfect marks for non-intrusiveness alongside stellar accessibility. However, sluggish page speeds and underwhelming privacy protections prevent it from achieving true excellence. Earning an 83/100 (Grade B), it stands as a strong, reader-first platform that still needs to trim its back-end data bloat."
+  },
+  {
+    "siteId": "buzzfeednews",
+    "siteName": "BuzzFeed News",
+    "siteUrl": "https://www.buzzfeednews.com",
+    "scannerVersion": "0.2.0",
+    "runStartedAt": "2026-08-13T08:38:54.838Z",
+    "pillars": {
+      "intrusion": 98,
+      "privacy": 45,
+      "performance": 53,
+      "accessibility": 94
+    },
+    "pillarGrades": {
+      "intrusion": {
+        "score": 98,
+        "letter": "A+",
+        "tier": "good",
+        "colour": "ledger",
+        "verdict": "Reader Excellent"
+      },
+      "privacy": {
+        "score": 45,
+        "letter": "F",
+        "tier": "bad",
+        "colour": "rust",
+        "verdict": "Reader Hostile"
+      },
+      "performance": {
+        "score": 53,
+        "letter": "D",
+        "tier": "mid",
+        "colour": "brass",
+        "verdict": "Needs Work"
+      },
+      "accessibility": {
+        "score": 94,
+        "letter": "A",
+        "tier": "good",
+        "colour": "ledger",
+        "verdict": "Reader Approved"
+      }
+    },
+    "overallScore": 72,
+    "overallGrade": {
+      "score": 72,
+      "letter": "C-",
+      "tier": "mid",
+      "colour": "brass",
+      "verdict": "Mixed Experience"
+    },
+    "attentionTax": "Moderate",
+    "scoredAt": "2026-08-13T08:40:50.064Z",
+    "aiExplanation": "BuzzFeed News delivers a remarkably uncluttered and accessible layout that respects your screen space. Unfortunately, that clean facade hides aggressive data tracking and bloated page weights that drag down performance and compromise reader privacy. It earns a mediocre C- grade for offering surface-level polish while quietly taxing its audience behind the scenes."
+  },
+  {
+    "siteId": "dailymail",
+    "siteName": "Daily Mail",
+    "siteUrl": "https://www.dailymail.co.uk",
+    "scannerVersion": "0.2.0",
+    "runStartedAt": "2026-08-13T08:36:50.988Z",
+    "pillars": {
+      "intrusion": 80,
+      "privacy": 41,
+      "performance": 53,
+      "accessibility": 66
+    },
+    "pillarGrades": {
+      "intrusion": {
+        "score": 80,
+        "letter": "B-",
+        "tier": "good",
+        "colour": "ledger",
+        "verdict": "Reader Friendly"
+      },
+      "privacy": {
+        "score": 41,
+        "letter": "F",
+        "tier": "bad",
+        "colour": "rust",
+        "verdict": "Reader Hostile"
+      },
+      "performance": {
+        "score": 53,
+        "letter": "D",
+        "tier": "mid",
+        "colour": "brass",
+        "verdict": "Needs Work"
+      },
+      "accessibility": {
+        "score": 66,
+        "letter": "D",
+        "tier": "mid",
+        "colour": "brass",
+        "verdict": "Needs Work"
+      }
+    },
+    "overallScore": 60,
+    "overallGrade": {
+      "score": 60,
+      "letter": "D",
+      "tier": "mid",
+      "colour": "brass",
+      "verdict": "Needs Work"
+    },
+    "attentionTax": "Moderate",
+    "scoredAt": "2026-08-13T08:41:12.310Z",
+    "aiExplanation": "Daily Mail keeps direct visual intrusion surprisingly low, but it utterly fails to respect reader privacy behind the scenes. Abysmal tracking protections and bloated load times drag the publication down to a dismal D grade. It spares you from endless popups, but quietly taxes your data and patience instead."
+  },
+  {
+    "siteId": "nytimes",
+    "siteName": "The New York Times",
+    "siteUrl": "https://www.nytimes.com",
+    "scannerVersion": "0.2.0",
+    "runStartedAt": "2026-08-13T08:36:07.224Z",
+    "pillars": {
+      "intrusion": 81,
+      "privacy": 56.5,
+      "performance": 25,
+      "accessibility": 83
+    },
+    "pillarGrades": {
+      "intrusion": {
+        "score": 81,
+        "letter": "B-",
+        "tier": "good",
+        "colour": "ledger",
+        "verdict": "Reader Friendly"
+      },
+      "privacy": {
+        "score": 57,
+        "letter": "D",
+        "tier": "mid",
+        "colour": "brass",
+        "verdict": "Needs Work"
+      },
+      "performance": {
+        "score": 25,
+        "letter": "F",
+        "tier": "bad",
+        "colour": "rust",
+        "verdict": "Reader Hostile"
+      },
+      "accessibility": {
+        "score": 83,
+        "letter": "B",
+        "tier": "good",
+        "colour": "ledger",
+        "verdict": "Reader Friendly"
+      }
+    },
+    "overallScore": 63,
+    "overallGrade": {
+      "score": 63,
+      "letter": "D",
+      "tier": "mid",
+      "colour": "brass",
+      "verdict": "Needs Work"
+    },
+    "attentionTax": "Moderate",
+    "scoredAt": "2026-08-13T08:41:35.153Z",
+    "aiExplanation": "The New York Times offers solid accessibility and restrained ad intrusions, but atrocious loading speeds drag its overall grade down to a dismal D. Bloated page weight severely hampers performance, while mediocre privacy protections leave user data exposed. The Gray Lady might respect your eyes, but it fails to respect your time or your digital footprint."
+  },
+  {
+    "siteId": "theguardian",
+    "siteName": "The Guardian",
+    "siteUrl": "https://www.theguardian.com",
+    "scannerVersion": "0.2.0",
+    "runStartedAt": "2026-08-13T08:34:58.361Z",
+    "pillars": {
+      "intrusion": 68,
+      "privacy": 81.5,
+      "performance": 90,
+      "accessibility": 92
+    },
+    "pillarGrades": {
+      "intrusion": {
+        "score": 68,
+        "letter": "D",
+        "tier": "mid",
+        "colour": "brass",
+        "verdict": "Needs Work"
+      },
+      "privacy": {
+        "score": 82,
+        "letter": "B-",
+        "tier": "good",
+        "colour": "ledger",
+        "verdict": "Reader Friendly"
+      },
+      "performance": {
+        "score": 90,
+        "letter": "A-",
+        "tier": "good",
+        "colour": "ledger",
+        "verdict": "Reader Approved"
+      },
+      "accessibility": {
+        "score": 92,
+        "letter": "A-",
+        "tier": "good",
+        "colour": "ledger",
+        "verdict": "Reader Approved"
+      }
+    },
+    "overallScore": 81,
+    "overallGrade": {
+      "score": 81,
+      "letter": "B-",
+      "tier": "good",
+      "colour": "ledger",
+      "verdict": "Reader Friendly"
+    },
+    "attentionTax": "Moderate",
+    "scoredAt": "2026-08-13T08:41:52.853Z",
+    "aiExplanation": "The Guardian delivers a lightning-fast, accessible experience backed by strong privacy standards. However, persistent reader-funding banners and popups drag down its intrusion score, imposing a noticeable tax on reader attention. It sets the standard for technical performance, but its relentless digital cup-handling keeps it from earning a top-tier grade."
+  }
+]

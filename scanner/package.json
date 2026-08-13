@@ -1,0 +1,24 @@
+{
+  "name": "@page-crank/scanner",
+  "version": "0.1.0",
+  "description": "Playwright-based scanner that measures reader-hostile patterns on news websites",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scan": "tsx src/scan.ts",
+    "scan:site": "tsx src/scan.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "chrome-launcher": "^1.1.2",
+    "lighthouse": "^12.2.0",
+    "playwright": "^1.47.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "tsx": "^4.17.0",
+    "typescript": "^5.5.4"
+  }
+}
