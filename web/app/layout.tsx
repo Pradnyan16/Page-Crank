@@ -13,6 +13,12 @@ export const metadata: Metadata = {
   },
 };
 
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+};
+
 import { getLatestEdition } from '@/lib/data';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';

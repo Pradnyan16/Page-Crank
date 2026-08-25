@@ -8,7 +8,7 @@ interface NavProps {
 
 export default function Nav({ edition }: NavProps) {
   return (
-    <nav className="flex justify-between items-center px-6 py-4 border-b border-ink font-mono text-xs tracking-widest uppercase w-full">
+    <nav className="flex flex-col sm:flex-row justify-between items-center gap-4 px-6 py-4 border-b border-ink font-mono text-xs tracking-widest uppercase w-full">
       <Link href="/" className="transition-opacity hover:opacity-80">
         <Image
           src="/pagecrank-logo.png"
@@ -20,7 +20,7 @@ export default function Nav({ edition }: NavProps) {
         />
       </Link>
 
-      <div className="flex gap-6 text-inkSoft">
+      <div className="flex flex-wrap justify-center gap-4 sm:gap-6 text-inkSoft">
         <Link href="/rankings" className="hover:text-rust transition-colors">
           RANKING
         </Link>
