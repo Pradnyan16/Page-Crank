@@ -58,7 +58,7 @@ export default async function HomePage() {
       </div>
 
       {/* Main Content Wrapper (Full Width) */}
-      <div className="w-full px-4 sm:px-6 lg:px-12 xl:px-16 pb-20">
+      <div className="w-full max-w-[2160px] mx-auto px-4 sm:px-6 lg:px-12 xl:px-16 pb-20">
 
         {/* 4. Hero Summary */}
         <div className="text-center py-12">
