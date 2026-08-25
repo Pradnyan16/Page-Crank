@@ -28,8 +28,7 @@ export default function Ticker({ sites }: TickerProps) {
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
-    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (prefersReduced || !trackRef.current) return;
+    if (!trackRef.current) return;
 
     // Duplicate items so the loop is seamless
     const track = trackRef.current;
